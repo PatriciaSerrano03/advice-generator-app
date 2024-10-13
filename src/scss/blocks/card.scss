@@ -1,0 +1,32 @@
+.card{
+    width: 343px;
+    background-color: #313a48;
+    text-align: center;
+    padding: 24px 24px 64px;
+    border-radius: 20px;
+    position: relative;
+
+    &__id{
+        color: #53ffaa;
+        font-size: 13px;
+        letter-spacing: 5px;
+
+    }
+
+    &__text{
+        font-size: 28px;
+        letter-spacing: -0.23px;
+        color: #cee3e9;
+    }
+
+    &__image-container{
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        width: 64px;
+        padding: 20px;
+        border-radius: 50%;
+        background-color: #53ffaa;
+        translate: -50% 50%;
+    }
+}

@@ -3,14 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <!-- PON UN FAVICON!!! -->
-    <link rel="icon" type="image/svg+xml" href="" />
+    <link rel="icon" type="image/svg+xml" href="./assets/images/favicon-32x32.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CAMBIA EL TITLE!!! -->
     <title>Vite Template</title>
   </head>
   <body>
-    <h1>HOLA</h1>
-    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat rerum pariatur iste nemo quos praesentium alias nostrum dolore magni? Provident magni incidunt harum officiis consequatur ad temporibus laboriosam hic illum! </p>
+   <main>
+
+    <div id="card" class="card">
+      <span id="advice-id" class="card__id"></span>
+      <p id="advice-text" class="card__text">"It is easy to sit up and take notice, what`s difficult is getting up and taking action"</p>
+      <picture>
+        <source media="(min-width: 768px)" srcset="./assets/images/pattern-divider-desktop.svg">
+        <source media="(min-width: 360px)" srcset="./assets/images/pattern-divider-mobile.svg">
+        <img  src="./assets/images/pattern-divider-mobile.svg" alt="divider pattern">
+       </picture>
+       <div id="card-button" class="card__image-container">
+        <img class="card__image" src="./assets/images/icon-dice.svg" alt="">
+       </div>
+       
+    </div>
+    
+   </main>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>
